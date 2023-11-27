@@ -3,8 +3,8 @@ import os
 import cv2
 
 # Giriş ve çıktı klasörlerini tanımlayın
-input_dir = "C:\\Users\\OmerVarul\\Desktop\\tifftojepg\\tiff"
-output_dir = "C:\\Users\\OmerVarul\\Desktop\\tifftojepg\\jpeg"
+input_dir = "input_dir"
+output_dir = "output_dir"
 
 # Giriş klasöründeki tüm dosyaları listeleyin
 files = os.listdir(input_dir)
